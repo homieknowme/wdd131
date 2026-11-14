@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Thomas Hansel</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals. Thomas Hansel. This is a webpage featuring my classwork for WDD 131.">
+    <meta name="author" content="Thomas Hansel">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    <h1>WDD 131 - Thomas Hansel - 2026</h1>
+
+    <header>
+
+        <span id="course-title">
+            WDD 131 - Dynamic Web Fundamentals
+        </span>
+        <nav>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://byupw.instructure.com">I-Learn</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/4?lang=eng&id=p6-p7#p6">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+
+    </header>
+    <main>
+
+        <h1>Thomas Hansel</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                My name is Thomas Hansel.
+                I was born in Kansas, and am currently still living there.
+                I am taking classes online through Brigham Young University Pathways.
+                I enjoy games and anime. I also enjoy programming.
+                I am working towards a degree in software developement.
+            </p>
+            <img src="images/thomas-hansel.jpg" alt="My Profile Picture">
+
+        </section>
+        <section class="card">
+            <h2>Web Dev Tools</h2>
+
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+
+                <li><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+
+                <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+
+                <li><a href="https://www.udemy.com/">Udemy</a></li>
+            </ul>
+
+        </section>
+
+    </main>
+    <footer>
+
+        <p>
+            &copy; <span id="currentyear"></span>
+            Thomas Hansel | Kansas
+        </p>
+        <P id="lastModified"></P>
+
+    </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F7F4;
+    color: #202B28;
+    margin: 0;
+}
+
+h1,
+h2,
+#course-title {
+    font-family: 'Poppins', sans-serif;
+}
+
+#course-title {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+header {
+    background-color: #202B28;
+    color: white;
+    text-align: center;
+    padding: 25px 0 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #276749;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav a:hover {
+    background-color: #202B28;
+    color: #C5A46D;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #276749;
+    margin-bottom: 25px;
+    grid-column: 1 / -1;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DED6;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card h2 {
+    background-color: #276749;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 0;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card p {
+    line-height: 1.7;
+    color: #202B28;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #202B28;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 650px) {
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        grid-column: 1;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+}
