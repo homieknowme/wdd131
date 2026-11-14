@@ -1,0 +1,25 @@
+#menu-button {
+    display: none;
+}
+
+header {
+    flex-wrap: nowrap;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px 15px;
+}
