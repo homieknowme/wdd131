@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | WDD 131</title>
+    <meta name="description" content="">
+    <meta name="author" content="Thomas Hansel">
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Japan</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <picture class="hero-image">
+                <source media="(min-width: 700px)" srcset="images\japan-large.webp">
+                <img src="images\japan-mobile.webp" alt="" width="600" height="900">
+            </picture>
+
+            <section class="data">
+                <h2>Data</h2>
+
+                <div class="details">
+                    <p><strong>Area:</strong> 377,975 sq km</p>
+                    <p><strong>Population:</strong> Approximately 123 million</p>
+                    <p><strong>Capital:</strong> Tokyo</p>
+                    <p><strong>Languages:</strong> Japanese</p>
+                    <p><strong>Currency:</strong> Japanese Yen</p>
+                    <p><strong>Time Zone:</strong> UTC+9</p>
+                    <p><strong>Calling Code:</strong> +81</p>
+                    <p><strong>Internet TLD:</strong> .jp</p>
+                </div>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+
+                <img class="weather-icon" src="images/partly-cloudy.svg" alt="Partly cloudy">
+
+                <div class="details">
+                    <p><strong>Temperature:</strong> <span id="temperature">8</span> °C</p>
+                    <p><strong>Conditions:</strong> Partly Cloudy</p>
+                    <p><strong>Wind:</strong> <span id="wind">10</span> km/h</p>
+                    <p><strong>Wind Chill:</strong> <span id="windchill">6.8</span> °C</p>
+                </div>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span>
+            Thomas Hansel | Kansas
+        </p>
+        <P id="lastModified"></P>
+    </footer>
+
+</body>
+
+</html>
